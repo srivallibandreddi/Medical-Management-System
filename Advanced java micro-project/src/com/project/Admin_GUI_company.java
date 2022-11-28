@@ -256,7 +256,7 @@ public class Admin_GUI_company implements ActionListener
 
             add_db.add(add_b);
             
-            add_db.getContentPane().setBackground(new Color(152, 251, 152));
+            add_db.getContentPane().setBackground(new Color(251, 152, 152));
             add_db.getRootPane().setBorder(BorderFactory.createMatteBorder(5, 5, 5, 5, new Color(0, 128, 0)));
             add_db.setVisible(true);
             add_db.setSize(500,280); 
@@ -378,7 +378,7 @@ public class Admin_GUI_company implements ActionListener
 
                 update_db.add(update_b);
 
-                update_db.getContentPane().setBackground(new Color(152, 251, 152));
+                update_db.getContentPane().setBackground(new Color(251, 152, 152));
                 update_db.getRootPane().setBorder(BorderFactory.createMatteBorder(5, 5, 5, 5, new Color(0, 128, 0)));
                 update_db.setVisible(true);
                 update_db.setSize(500,280);

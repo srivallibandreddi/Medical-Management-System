@@ -43,7 +43,7 @@ public class Welcome implements ActionListener
         
         //-------------- decorate panel and components on panel ---------------
         panel.setBorder(BorderFactory.createMatteBorder(7, 7, 7, 7, new Color(0, 128, 0)));
-        panel.setBackground(new Color(152, 251, 152));
+        panel.setBackground(new Color(251, 152, 152));
         next.setForeground(new Color(255,250,250));
         next.setBackground(new Color(0,0,0));
         

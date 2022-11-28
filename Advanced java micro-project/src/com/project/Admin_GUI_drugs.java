@@ -95,8 +95,8 @@ public class Admin_GUI_drugs implements ActionListener
          
         search_tf.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
         
-        drugs_p_west.setBackground(new Color(152, 251, 152));
-        drugs_p_center.setBackground(new Color(152, 251, 152));
+        drugs_p_west.setBackground(new Color(251, 152, 152));
+        drugs_p_center.setBackground(new Color(251, 152, 152));
         drugs_p_west.setBorder(BorderFactory.createMatteBorder(0, 0, 0, 7, new Color(0, 128, 0)));
         drugs_p_center.setBorder(BorderFactory.createMatteBorder(0, 7, 0, 0, new Color(0, 128, 0)));
         drugs_p_west.setPreferredSize(new Dimension(150,0));
@@ -300,7 +300,7 @@ public class Admin_GUI_drugs implements ActionListener
             
             add_db.add(add_b);
             
-            add_db.getContentPane().setBackground(new Color(152, 251, 152));
+            add_db.getContentPane().setBackground(new Color(251, 152, 152));
             add_db.getRootPane().setBorder(BorderFactory.createMatteBorder(5, 5, 5, 5, new Color(0, 128, 0)));
             add_db.setVisible(true);
             add_db.setSize(500,500);    
@@ -491,7 +491,7 @@ public class Admin_GUI_drugs implements ActionListener
 
                 update_db.add(update_b);
 
-                update_db.getContentPane().setBackground(new Color(152, 251, 152));
+                update_db.getContentPane().setBackground(new Color(251, 152, 152));
                 update_db.getRootPane().setBorder(BorderFactory.createMatteBorder(5, 5, 5, 5, new Color(0, 128, 0)));
                 update_db.setVisible(true);
                 update_db.setSize(500,500); 
@@ -577,7 +577,7 @@ public class Admin_GUI_drugs implements ActionListener
 
                 sales_db.add(sales_b);
 
-                sales_db.getContentPane().setBackground(new Color(152, 251, 152));
+                sales_db.getContentPane().setBackground(new Color(251, 152, 152));
                 sales_db.getRootPane().setBorder(BorderFactory.createMatteBorder(5, 5, 5, 5, new Color(0, 128, 0)));
                 sales_db.setVisible(true);
                 sales_db.setSize(500,200); 

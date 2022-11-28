@@ -110,8 +110,8 @@ public class Login implements ActionListener
         center.add(medicine2);
         
         //------------------set background to panels in frame-------------------------
-        center.setBackground(new Color(152, 251, 152));
-        north.setBackground(new Color(152, 251, 152));
+        center.setBackground(new Color(251, 152, 152));
+        north.setBackground(new Color(251, 152, 152));
         
         //---------------------set size to panels in frame-------------------------
         north.setPreferredSize(new Dimension(100,100));

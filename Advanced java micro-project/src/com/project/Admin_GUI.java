@@ -86,12 +86,12 @@ public class Admin_GUI implements ActionListener
                 Font n = new Font("Times New Roman" , Font.BOLD , 20);
                 Font r = new Font("Times New Roman" , Font.BOLD , 18);
                 
-                JLabel cn = new JLabel("Name - Patil Chetan");
-                JLabel cr = new JLabel("Roll No - 66");
-                JLabel an = new JLabel("Name - Kale Atharva");
-                JLabel ar = new JLabel("Roll No - 26");
-                JLabel sn = new JLabel("Name - Kakde Shantanu");
-                JLabel sr = new JLabel("Roll No - 25");
+                JLabel cn = new JLabel("Name - Pinky ");
+                JLabel cr = new JLabel("Roll No - 13");
+                JLabel an = new JLabel("Name - prathima");
+                JLabel ar = new JLabel("Roll No - 36");
+                JLabel sn = new JLabel("Name - aish");
+                JLabel sr = new JLabel("Roll No - 35");
                 
                 cn.setFont(n);
                 an.setFont(n);
@@ -119,9 +119,9 @@ public class Admin_GUI implements ActionListener
                 as_2.setBorder(BorderFactory.createMatteBorder(7, 0, 7, 7, new Color(0, 128, 0)));
                 as_3.setBorder(BorderFactory.createMatteBorder(7, 0, 7, 7, new Color(0, 128, 0)));
                 
-                as_1.setBackground(new Color(152, 251, 152));
-                as_2.setBackground(new Color(152, 251, 152));
-                as_3.setBackground(new Color(152, 251, 152));
+                as_1.setBackground(new Color(251, 152, 152));
+                as_2.setBackground(new Color(251, 152, 152));
+                as_3.setBackground(new Color(251, 152, 152));
                 
                 as_1.setPreferredSize(new Dimension(300 , 300));
                 as_2.setPreferredSize(new Dimension(300 , 300));
@@ -179,14 +179,14 @@ public class Admin_GUI implements ActionListener
         south.setBorder(BorderFactory.createMatteBorder(7, 7, 7, 7, new Color(0, 128, 0)));
         
         
-        user_p.setBackground(new Color(152, 251, 152));
-        sales_p.setBackground(new Color(152, 251, 152));
+        user_p.setBackground(new Color(251, 152, 152));
+        sales_p.setBackground(new Color(251, 152, 152));
         
         // ---------------- set bg to sub panels of border layout ---------------
-        center.setBackground(new Color(152, 251, 152));
-        west.setBackground(new Color(152, 251, 152));
-        north.setBackground(new Color(152, 251, 152));
-        south.setBackground(new Color(152, 251, 152));
+        center.setBackground(new Color(251, 152, 152));
+        west.setBackground(new Color(251, 152, 152));
+        north.setBackground(new Color(251, 152, 152));
+        south.setBackground(new Color(251, 152, 152));
         
         // ---------------- set prefered size to sub panels of border layout ---------------
         north.setPreferredSize(new Dimension(100,100));
@@ -263,7 +263,7 @@ public class Admin_GUI implements ActionListener
             logout_db.add(yes);
             logout_db.add(no);
             
-            logout_db.getContentPane().setBackground(new Color(152, 251, 152));
+            logout_db.getContentPane().setBackground(new Color(251, 152, 152));
             logout_db.setVisible(true);
             logout_db.setSize(400 , 200);
             logout_db.setLocationRelativeTo(null);

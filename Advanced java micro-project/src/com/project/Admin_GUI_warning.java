@@ -123,7 +123,7 @@ public class Admin_GUI_warning
         
         warning_list.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
          
-        warning_p.setBackground(new Color(152, 251, 152));
+        warning_p.setBackground(new Color(251, 152, 152));
         
         sp.setBounds(100, 30 , 800, 400);
         

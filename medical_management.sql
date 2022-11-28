@@ -38,7 +38,7 @@ CREATE TABLE `mm_company` (
 --
 
 INSERT INTO `mm_company` (`Name`, `Address`, `Phone No.`) VALUES
-('chetan', 'c', '3456'),
+('pinky', 'c', '3456'),
 ('6', '6', '6'),
 ('prashant ', 'I am from LATUR', '72829299'),
 ('atharva pvt ltd', 'pune', '1234');
